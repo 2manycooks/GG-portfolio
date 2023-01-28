@@ -4,18 +4,44 @@ body {
 }
 
 #content {
+    position: relative;
     margin: 0 auto;
     color: black;
     border: 2px solid black;
     border-radius: 5px;
     height: 97vh;
     width: 95vw;
+    z-index: 2;
+    overflow: hidden;
 }
 
 #title {
     margin-left: 5%;
 }
 
+#description {
+    position: absolute;
+    text-align: right;
+    bottom: 5%;
+    width: 15em;
+    right: 5%;
+}
+
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+li {
+    list-style-type: square;
+}
+
+#brush-stroke {
+    position: absolute;
+    rotate: 90deg;
+    height: 500px;
+    opacity: 0.85;
 }
