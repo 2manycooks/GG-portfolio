@@ -17,14 +17,16 @@ body {
 
 #title {
     margin-left: 5%;
+    font-size: larger;
 }
 
 #description {
     position: absolute;
     text-align: right;
-    bottom: 5%;
+    /* bottom: 5%; */
     width: 15em;
     right: 5%;
+    font-size: larger;
 }
 
 h1 {
@@ -39,8 +41,32 @@ li {
     list-style-type: square;
 }
 
+#projectsArea {
+    position: absolute;
+    left: 5%;
+    width: 40%;
+    height: 80%;
+    overflow: scroll;
+}
+
 #brush-stroke {
     position: absolute;
     rotate: 90deg;
     height: 500px;
+}
+
+#github {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 0%;
+    right: 0%;
+}
+
+#linkedin {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 0%;
+    right: 3.8%;
 }
