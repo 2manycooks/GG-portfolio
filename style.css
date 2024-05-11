@@ -53,6 +53,7 @@ li {
     position: absolute;
     rotate: 90deg;
     height: 500px;
+    margin-left: 250px;
 }
 
 #github {
